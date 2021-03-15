@@ -24,4 +24,4 @@ eureka:
     service-url:
       defaultZone: http://localhost:8100/eureka
 test:
-  property: prop2
+  property: prop3
