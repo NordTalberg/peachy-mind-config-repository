@@ -1,0 +1,27 @@
+server:
+  port: ${random.server.port}
+spring:
+  application:
+    name: peachy-mind
+  flyway:
+    enabled: true
+    table: migration_history
+  datasource:
+    jdbc-url: jdbc:mysql://${db.credentials.domain}:${db.credentials.port}/${db.name}?serverTimezone=UTC&user=${db.credentials.username}&password=${db.credentials.pass}
+    jpa:
+      properties:
+        hibernate:
+          show-sql: true
+      database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  profiles:
+    active: '@spring.profiles.active@'
+eureka:
+  instance:
+    status-page-url-path: http://localhost:${server.port}/actuator/info
+    instance-id: ${spring.application.name}:${random.value}
+  client:
+    service-url:
+      defaultZone: http://localhost:8100/eureka
+test:
+  property: prop

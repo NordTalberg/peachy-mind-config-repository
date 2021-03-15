@@ -1,0 +1,7 @@
+db:
+  name: peachy_mind
+  credentials:
+    domain: localhost
+    port: 3306
+    pass: root
+    username: root
