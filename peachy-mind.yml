@@ -1,6 +1,9 @@
 server:
   port: ${random.server.port}
 spring:
+  cloud:
+    bus:
+      id: ${eureka.instance.instance-id}
   application:
     name: peachy-mind
   flyway:
@@ -24,4 +27,4 @@ eureka:
     service-url:
       defaultZone: http://localhost:8100/eureka
 test:
-  property: prop3
+  property: prop4
