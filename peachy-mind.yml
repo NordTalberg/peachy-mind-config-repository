@@ -21,7 +21,7 @@ spring:
     active: '@spring.profiles.active@'
 eureka:
   instance:
-    status-page-url-path: http://localhost:${server.port}/actuator/info
+    status-page-url-path: http://localhost:${server.port}/health
     instance-id: ${spring.application.name}:${random.value}
   client:
     service-url:
