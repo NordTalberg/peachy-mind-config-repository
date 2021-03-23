@@ -26,10 +26,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8200/eureka
-default:
-  signature-algorithm:
-    value: ${default.signature-algorithm.hs512}
-    hs512: HS512
-  secret:
-    value: ${default.secret.hs512}
-    hs512: ybh3+N9auwFTcqOGl0AEE1GbPf27ivTTmgzGK3P8oS+vcY1PXV6feI2gz1dX3a3yayVvdE5ONiIwDsLZf7rOwg==
