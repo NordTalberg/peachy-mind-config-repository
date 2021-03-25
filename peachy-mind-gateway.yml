@@ -3,4 +3,4 @@ spring:
     name: peachy-mind-gateway
 
 server:
-  port: 8200
+  port: 8300
