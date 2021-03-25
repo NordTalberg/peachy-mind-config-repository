@@ -1,0 +1,16 @@
+db:
+  name: peachy_mind_auz
+  host: localhost
+  port: 3306
+  credentials:
+    username: root
+    password: root
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8100/eureka
+
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 60000

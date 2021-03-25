@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: peachy-mind-gateway
+
+server:
+  port: 8200
