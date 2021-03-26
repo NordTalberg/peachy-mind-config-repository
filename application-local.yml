@@ -1,3 +1,6 @@
+self:
+  host: localhost
+
 db:
   name: peachy_mind
   host: localhost
@@ -5,9 +8,6 @@ db:
   credentials:
     username: root
     password: root
-
-self:
-  host: localhost
 
 eureka:
   host: localhost
