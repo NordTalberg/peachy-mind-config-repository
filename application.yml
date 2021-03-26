@@ -1,7 +1,5 @@
 server:
   port: ${self.port}
-test:
-  property: testPropert8
 
 spring:
   flyway:

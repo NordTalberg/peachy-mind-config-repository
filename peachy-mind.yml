@@ -4,6 +4,8 @@ spring:
       id: ${eureka.instance.instance-id}
   application:
     name: peachy-mind
+test:
+  property: testPropert8
 
 eureka:
   instance:
