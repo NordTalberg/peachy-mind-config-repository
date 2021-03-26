@@ -1,5 +1,5 @@
-#db:
-#  name: peachy_mind_auz
+db:
+  name: peachy_mind_auz
 #  host: localhost
 #  port: 3306
 #  credentials:
