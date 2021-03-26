@@ -2,6 +2,9 @@ self:
   port: 8200
 
 spring:
+  cloud:
+    bus:
+      id: ${spring.application.name}:${random.value}
   application:
     name: peachy-mind-discovery
 
