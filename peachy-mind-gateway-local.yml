@@ -6,10 +6,12 @@ db:
     username: root
     password: root
 
+self:
+  host: localhost
+
 eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8200/eureka
+  host: localhost
+  port: 8200
 
 ribbon:
   ConnectTimeout: 3000

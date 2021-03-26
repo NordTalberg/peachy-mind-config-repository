@@ -1,12 +1,14 @@
-server:
+self:
   port: 8200
+
 spring:
   application:
     name: peachy-mind-discovery
+
 eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
     client:
       service-url:
-        defaultZone: http://localhost:${server.port}/eureka
+        defaultZone: http://${self.host}:${self.port}/eureka

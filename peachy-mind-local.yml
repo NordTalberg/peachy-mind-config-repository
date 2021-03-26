@@ -5,3 +5,10 @@ db:
   credentials:
     username: root
     password: root
+
+self:
+  host: localhost
+
+eureka:
+  host: localhost
+  port: 8200

@@ -1,15 +1,17 @@
-server:
+self:
   port: ${random.server.port}
+
 spring:
   cloud:
     bus:
       id: ${eureka.instance.instance-id}
   application:
     name: peachy-mind
+
 eureka:
   instance:
-    status-page-url-path: http://localhost:${server.port}/health
+    status-page-url-path: http://${self.host}:${self.port}/health
     instance-id: ${spring.application.name}:${random.value}
   client:
     service-url:
-      defaultZone: http://localhost:8200/eureka
+      defaultZone: http://${eureka.host}:${eureka.port}/eureka
