@@ -8,10 +8,10 @@ db:
     username: root
     password: root
 
-eureka:
+discovery:
   host: localhost
   port: 8200
 
-zuul:
+gateway:
   host: localhost
   port: 8300
