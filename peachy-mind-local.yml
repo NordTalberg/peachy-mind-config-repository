@@ -1,14 +1,2 @@
 db:
   name: peachy_mind
-#  host: localhost
-#  port: 3306
-#  credentials:
-#    username: root
-#    password: root
-#
-#self:
-#  host: localhost
-#
-#eureka:
-#  host: localhost
-#  port: 8200

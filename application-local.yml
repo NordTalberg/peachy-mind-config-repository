@@ -11,3 +11,7 @@ db:
 eureka:
   host: localhost
   port: 8200
+
+zuul:
+  host: localhost
+  port: 8300
