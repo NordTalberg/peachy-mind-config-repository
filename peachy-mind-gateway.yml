@@ -15,3 +15,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://${discovery.host}:${discovery.port}/eureka
+
+token:
+  jwt:
+    claim:
+      iss: gateway

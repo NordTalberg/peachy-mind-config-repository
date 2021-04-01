@@ -23,5 +23,4 @@ token:
       secret: ybh3+N9auwFTcqOGl0AEE1GbPf27ivTTmgzGK3P8oS+vcY1PXV6feI2gz1dX3a3yayVvdE5ONiIwDsLZf7rOwg==
       algorithm: HS512
     claim:
-      iss: www.peachy-mind.com
       lifetime: 10080 #mins
