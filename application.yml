@@ -31,3 +31,6 @@ token:
       algorithm: HS512
     claim:
       lifetime: 10080 #mins
+
+gateway:
+  serviced-application-names: peachy-mind
