@@ -9,7 +9,7 @@ spring:
     name: peachy-mind-gateway
 
 zuul:
-  ignore-security-headers: false
+  sensitiveHeaders: Cookie,Set-Cookie
 
 eureka:
   instance:
