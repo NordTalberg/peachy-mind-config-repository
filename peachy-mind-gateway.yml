@@ -8,6 +8,9 @@ spring:
   application:
     name: peachy-mind-gateway
 
+zuul:
+  ignore-security-headers: false
+
 eureka:
   instance:
     status-page-url-path: http://${self.host}:${self.port}/health
