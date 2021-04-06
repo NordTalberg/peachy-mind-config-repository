@@ -20,6 +20,7 @@ spring:
 token:
   jwt:
     refresh:
+      prefix: Refresh
       signature:
         secret: QcbQuxZHPyzgBAqJbOrJM94RQzXDF+I2IIk4+OIrmMbh7q133CaMIt7OqqaCIBAxF6+S3Iyy1n7CrimB8qZPlA==
         algorithm: HS512
@@ -30,7 +31,16 @@ token:
       secret: ybh3+N9auwFTcqOGl0AEE1GbPf27ivTTmgzGK3P8oS+vcY1PXV6feI2gz1dX3a3yayVvdE5ONiIwDsLZf7rOwg==
       algorithm: HS512
     claim:
+      iss: www.peachy-mind.com
       lifetime: 10080 #mins
+  peachy:
+    prefix: Peachy
+    signature:
+      secret: 8QwetCf03dqdQ6WhlBbisCMv3haagarVCbjJXv7xJE9X3uBD1wcjEnUCkbANmXal5O1LfnI2+mCjmvv4w5Cq3Q==
+      algorithm: HS512
+    claim:
+      iss: www.peachy-mind.com
+      lifetime: -1
 
 gateway:
   serviced-application-names: peachy-mind
