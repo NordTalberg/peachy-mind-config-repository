@@ -33,14 +33,14 @@ token:
     claim:
       iss: www.peachy-mind.com
       lifetime: 10080 #mins
-  peachy:
-    prefix: Peachy
+  internal:
+    prefix: Internal
     signature:
       secret: 8QwetCf03dqdQ6WhlBbisCMv3haagarVCbjJXv7xJE9X3uBD1wcjEnUCkbANmXal5O1LfnI2+mCjmvv4w5Cq3Q==
       algorithm: HS512
     claim:
       iss: www.peachy-mind.com
-      lifetime: -1
+      lifetime: 10090 #mins
 
 gateway:
   serviced-application-names: peachy-mind
