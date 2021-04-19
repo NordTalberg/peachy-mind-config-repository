@@ -25,14 +25,14 @@ token:
         secret: QcbQuxZHPyzgBAqJbOrJM94RQzXDF+I2IIk4+OIrmMbh7q133CaMIt7OqqaCIBAxF6+S3Iyy1n7CrimB8qZPlA==
         algorithm: HS512
       claim:
-        lifetime: 44640 #mins
+        lifetime: 2678400 #seconds
     prefix: Bearer
     signature:
       secret: ybh3+N9auwFTcqOGl0AEE1GbPf27ivTTmgzGK3P8oS+vcY1PXV6feI2gz1dX3a3yayVvdE5ONiIwDsLZf7rOwg==
       algorithm: HS512
     claim:
       iss: www.peachy-mind.com
-      lifetime: 10080 #mins
+      lifetime: 604200 #seconds
   internal:
     prefix: Internal
     signature:
@@ -40,7 +40,7 @@ token:
       algorithm: HS512
     claim:
       iss: www.peachy-mind.com
-      lifetime: 10090 #mins
+      lifetime: 604800 #seconds
 
 gateway:
   serviced-application-names: peachy-mind
