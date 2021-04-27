@@ -23,3 +23,10 @@ token:
   jwt:
     claim:
       iss: gateway
+
+brute-force:
+  protection:
+    auth-attempt:
+      limit:
+        count: 10
+        ttl: 1200 #seconds
