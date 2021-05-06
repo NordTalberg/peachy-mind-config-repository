@@ -1,5 +1,5 @@
 self:
-  port: 8400
+  port: 8500
 
 spring:
   cloud:
