@@ -13,7 +13,7 @@ zuul:
 
 eureka:
   instance:
-    status-page-url-path: http://${self.host}:${self.port}/health
+    status-page-url-path: http://${self.host}:${self.port}/general/health
     instance-id: ${spring.application.name}:${random.value}
   client:
     service-url:
