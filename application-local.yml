@@ -1,3 +1,6 @@
+self:
+  host: localhost
+
 discovery:
   host: localhost
   port: 8200
