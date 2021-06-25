@@ -1,2 +1,16 @@
 db:
-  name: peachy_mind
+  primary: peachy-mind
+  peachy-mind:
+    name: peachy_mind
+    host: localhost
+    port: 3306
+    credentials:
+      username: root
+      password: root
+  peachy-mind-auz:
+    name: peachy_mind_auz
+    host: localhost
+    port: 3306
+    credentials:
+      username: root
+      password: root

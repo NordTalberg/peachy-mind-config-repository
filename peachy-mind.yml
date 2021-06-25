@@ -1,3 +1,6 @@
+self:
+  port: 8090
+
 spring:
   cloud:
     bus:

@@ -1,13 +1,3 @@
-self:
-  host: localhost
-
-db:
-  host: localhost
-  port: 3306
-  credentials:
-    username: root
-    password: root
-
 discovery:
   host: localhost
   port: 8200

@@ -1,5 +1,12 @@
 db:
-  name: peachy_mind_auz
+  primary: peachy_mind_auz
+  peachy-mind-auz:
+    name: peachy_mind_auz
+    host: localhost
+    port: 3306
+    credentials:
+      username: root
+      password: root
 
 ribbon:
   ConnectTimeout: 3000
