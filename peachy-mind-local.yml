@@ -14,3 +14,11 @@ db:
     credentials:
       username: root
       password: root
+
+aws:
+  s3:
+    access-key: AKIA4UPJMOYNHW27FVHB
+    secret-access-key: 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
+    region: eu-central-1
+    bucket:
+      base: peachy-mind

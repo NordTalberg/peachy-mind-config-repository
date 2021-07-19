@@ -1,5 +1,7 @@
 self:
   port: 8090
+  course:
+    border-grade: 80
 
 spring:
   cloud:
