@@ -4,6 +4,9 @@ self:
     border-grade: 80
 
 spring:
+  flyway:
+    default-schema: peachy_mind
+    schemas: peachy_mind
   cloud:
     bus:
       id: ${eureka.instance.instance-id}
