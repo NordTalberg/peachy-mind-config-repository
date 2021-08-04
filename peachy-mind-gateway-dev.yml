@@ -1,0 +1,13 @@
+db:
+  primary: peachy_mind_auz
+  peachy-mind-auz:
+    name: peachy_mind_auz
+    host: peachy-mind-dev.cmjj4rpepeae.eu-central-1.rds.amazonaws.com
+    port: 3306
+    credentials:
+      username: admin
+      password: --AJgJ!S5T_~
+
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 60000

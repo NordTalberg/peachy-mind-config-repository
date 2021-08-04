@@ -1,0 +1,24 @@
+db:
+  primary: peachy-mind
+  peachy-mind:
+    name: peachy_mind
+    host: peachy-mind-dev.cmjj4rpepeae.eu-central-1.rds.amazonaws.com
+    port: 3306
+    credentials:
+      username: root
+      password: root
+  peachy-mind-auz:
+    name: peachy_mind_auz
+    host: peachy-mind-dev.cmjj4rpepeae.eu-central-1.rds.amazonaws.com
+    port: 3306
+    credentials:
+      username: root
+      password: root
+
+aws:
+  s3:
+    access-key: AKIA4UPJMOYNHW27FVHB
+    secret-access-key: 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
+    region: eu-central-1
+    bucket:
+      base: peachy-mind
