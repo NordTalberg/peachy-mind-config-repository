@@ -1,0 +1,7 @@
+discovery:
+  host: http://peachy-mind-discovery-development.eba-ffun3fdp.eu-central-1.elasticbeanstalk.com/
+  port: 8200
+
+gateway:
+  host: localhost
+  port: 8300
