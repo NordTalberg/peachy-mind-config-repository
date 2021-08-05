@@ -5,15 +5,15 @@ db:
     host: peachy-mind-dev.cmjj4rpepeae.eu-central-1.rds.amazonaws.com
     port: 3306
     credentials:
-      username: root
-      password: root
+      username: admin
+      password: Shkk3KmEhzU8--fz
   peachy-mind-auz:
     name: peachy_mind_auz
     host: peachy-mind-dev.cmjj4rpepeae.eu-central-1.rds.amazonaws.com
     port: 3306
     credentials:
-      username: root
-      password: root
+      username: admin
+      password: Shkk3KmEhzU8--fz
 
 aws:
   s3:
