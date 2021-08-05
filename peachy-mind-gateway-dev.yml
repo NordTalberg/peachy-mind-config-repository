@@ -11,3 +11,6 @@ db:
 ribbon:
   ConnectTimeout: 3000
   ReadTimeout: 60000
+
+self:
+  uri: http://peachy-mind-gateway-dev.eba-behymebd.eu-central-1.elasticbeanstalk.com
