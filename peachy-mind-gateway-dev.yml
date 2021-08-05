@@ -6,7 +6,7 @@ db:
     port: 3306
     credentials:
       username: admin
-      password: --AJgJ!S5T_~
+      password: Shkk3KmEhzU8--fz
 
 ribbon:
   ConnectTimeout: 3000
