@@ -2,9 +2,6 @@ server:
   port: 8300
 
 spring:
-  cloud:
-    bus:
-      id: ${eureka.instance.instance-id}
   application:
     name: peachy-mind-gateway
 
@@ -13,7 +10,7 @@ zuul:
 
 eureka:
   instance:
-#    status-page-url-path: ${self.uri}/general/health
+    status-page-url-path: ${self.uri}/general/health
     instance-id: ${spring.application.name}:${random.value}
   client:
     service-url:
