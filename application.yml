@@ -9,8 +9,6 @@ spring:
     table: migration_history
     schemas: ${db.primary}
     default-schema: ${db.primary}
-  profiles:
-    active: '@spring.profiles.active@'
 
 token:
   jwt:
