@@ -1,4 +1,4 @@
-self:
+server:
   port: 8200
 
 spring:
@@ -13,4 +13,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://${self.host}:${self.port}/eureka
+      defaultZone: ${self.uri}/eureka

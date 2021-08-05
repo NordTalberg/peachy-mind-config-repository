@@ -1,6 +1,3 @@
-server:
-  port: ${self.port}
-
 spring:
   main:
     allow-bean-definition-overriding: true

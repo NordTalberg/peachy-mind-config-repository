@@ -1,4 +1,4 @@
-self:
+server:
   port: 8300
 
 spring:
@@ -13,11 +13,11 @@ zuul:
 
 eureka:
   instance:
-    status-page-url-path: http://${self.host}:${self.port}/general/health
+    status-page-url-path: ${self.uri}/general/health
     instance-id: ${spring.application.name}:${random.value}
   client:
     service-url:
-      defaultZone: http://${discovery.host}:${discovery.port}/eureka
+      defaultZone: ${discovery.uri}/eureka
 
 gateway:
   serviced-application-names: peachy-mind

@@ -15,6 +15,9 @@ db:
       username: root
       password: root
 
+self:
+  uri: http://localhost:${server.port}
+
 aws:
   s3:
     access-key: AKIA4UPJMOYNHW27FVHB

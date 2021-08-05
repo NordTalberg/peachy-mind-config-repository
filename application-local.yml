@@ -1,10 +1,5 @@
-self:
-  host: localhost
-
 discovery:
-  host: localhost
-  port: 8200
+  uri: http://localhost:8200
 
 gateway:
-  host: localhost
-  port: 8300
+  uri: http://localhost:8300

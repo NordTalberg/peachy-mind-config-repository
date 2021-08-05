@@ -11,3 +11,6 @@ db:
 ribbon:
   ConnectTimeout: 3000
   ReadTimeout: 60000
+
+self:
+  uri: http://localhost:${server.port}
