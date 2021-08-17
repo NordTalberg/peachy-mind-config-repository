@@ -7,7 +7,7 @@ spring:
     schemas: ${db.primary}
     default-schema: ${db.primary}
   profiles:
-    active: '@spring.profiles.active@'
+    active: dev
 
 token:
   jwt:
