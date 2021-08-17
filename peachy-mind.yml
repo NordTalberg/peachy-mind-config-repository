@@ -17,7 +17,6 @@ spring:
 
 eureka:
   instance:
-    status-page-url-path: http://peachy-mind-service-dev.eba-a8ptezbx.eu-central-1.elasticbeanstalk.com
     instance-id: ${spring.application.name}:${random.value}
   client:
     service-url:
