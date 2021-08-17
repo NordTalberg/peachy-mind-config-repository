@@ -1,5 +1,5 @@
 server:
-  port: ${self.port}
+  port: 8100
 
 self:
   course:
