@@ -17,8 +17,7 @@ spring:
 
 eureka:
   instance:
-    prefer-ip-address: true
-    ip-address: 3.67.175.32
+    hostname: http://peachy-mind-service-dev.eba-a8ptezbx.eu-central-1.elasticbeanstalk.com
     instance-id: ${spring.application.name}:${random.value}
   client:
     service-url:
