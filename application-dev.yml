@@ -1,6 +1,6 @@
 discovery:
   uri: http://peachy-mind-discovery-dev.eba-ffun3fdp.eu-central-1.elasticbeanstalk.com
 
-gateway:
-#  uri: http://peachy-mind-gateway-dev.eba-behymebd.eu-central-1.elasticbeanstalk.com
-  uri: http://localhost:8300
+#gateway:
+##  uri: http://peachy-mind-gateway-dev.eba-behymebd.eu-central-1.elasticbeanstalk.com
+#  uri: http://localhost:8300

@@ -1,5 +1,5 @@
 discovery:
   uri: http://localhost:8200
 
-gateway:
-  uri: http://localhost:8300
+#gateway:
+#  uri: http://localhost:8300
