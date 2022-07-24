@@ -1,0 +1,25 @@
+server:
+  port: 8100
+
+spring:
+  application:
+    name: discovery-client
+
+
+
+eureka:
+  instance:
+    status-page-url-path: /client/health
+    health-check-url-path: /client/health
+    metadataMap:
+      my-key: my-value
+  client:
+    serviceUrl:
+      defaultZone:
+        ${EUREKA_URI:http://localhost:8090/eureka}
+    healthcheck:
+      enabled: false
+    region: region-1
+    availability-zones:
+      region-1: zone1,zone2
+    prefer-same-zone-eureka: true
