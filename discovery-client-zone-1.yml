@@ -14,7 +14,7 @@ eureka:
     status-page-url-path: /client/health
     health-check-url-path: /client/health
     metadataMap:
-      my-key: my-value3
+      my-key: my-value4
   client:
     serviceUrl:
       defaultZone:
