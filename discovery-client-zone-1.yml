@@ -2,6 +2,8 @@ server:
   port: 8100
 
 spring:
+  profiles:
+    active: zone-1
   application:
     name: discovery-client
 
